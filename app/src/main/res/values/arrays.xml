@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filterType">
+        <item>PEQ</item>
+        <item>L_Pass</item>
+        <item>H_Pass</item>
+        <item>L_Shelf</item>
+        <item>H_Shelf</item>
+        <item>AllPass</item>
+    </string-array>
+    
+    <declare-styleable name="HorizontalSeekBar">
+        <attr name="android:thumb"/>
+    </declare-styleable>
+    
+    <!--<declare-styleable name="PeqInALine">-->
+        <!--<attr name="peq_lineSize" format="dimension" />-->
+        <!--<attr name="peq_textSize" format="dimension" />-->
+        <!--<attr name="peq_gridSize" format="dimension" />-->
+        <!--<attr name="peq_dotSize" format="dimension" />-->
+        <!--<attr name="peq_dotTextSize" format="dimension" />-->
+        <!--<attr name="peq_lineColor" format="reference|color" />-->
+        <!--<attr name="peq_textColor" format="reference|color" />-->
+        <!--<attr name="peq_gridColor" format="reference|color" />-->
+        <!--<attr name="peq_dotTextColor" format="reference|color" />-->
+        <!--<attr name="peq_dotSrc" format="reference|color" />-->
+        <!--<attr name="peq_highLightColor" format="reference|color" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="PeqLineChart">
+        <attr name="peq_lineSize" format="dimension" />
+        <attr name="peq_textSize" format="dimension" />
+        <attr name="peq_gridSize" format="dimension" />
+        <attr name="peq_dotSize" format="dimension" />
+        <attr name="peq_dotTextSize" format="dimension" />
+        <attr name="peq_lineColor" format="reference|color" />
+        <attr name="peq_textColor" format="reference|color" />
+        <attr name="peq_gridColor" format="reference|color" />
+        <attr name="peq_dotTextColor" format="reference|color" />
+        <attr name="peq_dotSrc" format="reference|color" />
+        <attr name="peq_highLightColor" format="reference|color" />
+    </declare-styleable>
+</resources>

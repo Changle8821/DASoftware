@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/main_view"
+        android:name="com.ckq.dasoftware.MainViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <LinearLayout
+         android:id="@+id/botton"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="3">
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent"
+               android:id="@+id/peq_btn"
+               android:text="参量均衡"
+               android:gravity="center"
+               android:background="@drawable/btn_select"/>
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent"
+               android:id="@+id/delay_btn"
+               android:text="延时"
+               android:gravity="center"
+               android:background="@drawable/btn_select"/>
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent"
+               android:id="@+id/limit_btn"
+               android:text="压限"
+               android:gravity="center"
+               android:background="@drawable/btn_select"/>
+
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent"
+               android:id="@+id/login_btn"
+               android:text="登录"
+               android:gravity="center"
+               android:background="@drawable/btn_select"/>
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"/>
+
+
+
+     </LinearLayout>
+
+
+
+</LinearLayout>

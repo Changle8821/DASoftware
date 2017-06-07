@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_1_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="1" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_1_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_1"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_1_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item1_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="40"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_1_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item1_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_1_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item1_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="10"
+                android:numeric="decimal"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_2_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="2" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_2_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_2"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_2_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item2_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_2_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item2_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_2_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item2_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_3_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="3" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_3_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_3"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_3_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item3_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="200"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_3_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item3_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_3_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item3_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_4_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="4" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_4_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_4"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_4_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item4_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="500"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_4_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item4_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_4_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item4_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_5_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="5" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_5_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_5"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_5_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item5_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="1000"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_5_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item5_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_5_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channe_item5_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_6_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="6" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_6_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_6"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_6_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item6_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="2000"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_6_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item6_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_6_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item6_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/peq_in_a_set_sec_7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/peq_in_a_set_sec_7_click"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="7" />
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_7_filterType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Spinner
+                android:id="@+id/filterTypeSelect_7"
+                android:background="@drawable/peq_drowdown_tab_select"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:entries="@array/filterType" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_7_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <EditText
+                android:id="@+id/peq_channel_item7_freq_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="5000"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_7_Q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@+id/peq_channel_item7_Q_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="3"
+                android:numeric="decimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/peq_in_a_set_sec_7_gain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@+id/peq_channel_item7_gain_digit"
+                android:background="@drawable/digit_bg"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:numeric="decimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

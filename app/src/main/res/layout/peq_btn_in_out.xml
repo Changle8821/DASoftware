@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/peq_btn_in_a"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_in_a"/>
+
+    <Button
+        android:id="@+id/peq_btn_in_b"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_in_b"/>
+
+    <Button
+        android:id="@+id/peq_btn_in_c"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_in_c"/>
+
+    <Button
+        android:id="@+id/peq_btn_in_d"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_in_d"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_1"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_2"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_3"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_4"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_5"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_6"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_7"/>
+
+    <Button
+        android:id="@+id/peq_btn_out_8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_out_8"/>
+
+</LinearLayout>
